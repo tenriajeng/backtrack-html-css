@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #about h2 {
+            text-align: center;
+        }
+
+        .about-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .about-container>div {
+            width: 48%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>Website Name</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div>
+            <img src="icons8-hamburger.svg" width="30" height="auto" alt="menu">
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Our Company</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus voluptatem, quidem, corrupti
+                consectetur laborum libero nesciunt illum iusto quibusdam reiciendis neque ut perferendis dolore fugiat
+                aut qui, possimus laudantium perspiciatis.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about-container">
+                <div>
+                    <h3>Sub Title</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur veritatis temporibus
+                        hic
+                        impedit, esse ullam error atque praesentium asperiores explicabo minima, tempore, ducimus odit
+                        quas
+                        autem quaerat nesciunt cumque.
+                    </p>
+                </div>
+                <div>
+                    <h3>Sub Title</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia odio mollitia officiis autem,
+                        fugit
+                        explicabo voluptatum vitae libero illo dolor veritatis, optio cupiditate beatae sunt ex
+                        assumenda
+                        vel quo! Nostrum?
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
